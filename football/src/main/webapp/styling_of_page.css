@@ -1,0 +1,178 @@
+#blue{
+    background-color:#e2eef4;
+    height: auto;
+    position: relative;
+    
+}
+
+#form_heading{
+    
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    height: 6%;
+}
+#text_heading{
+font-size: 150%;
+font-weight: bold;
+}
+#form_body{
+    background-color:whitesmoke;
+    position: relative;
+    left: 10px;
+    right: 10px;
+    padding-bottom:40px;
+    width:98%;
+    height:80%;
+}
+.twodiv{
+    float: left;
+    width: 48.5%;
+    height: 10%;
+}
+.border_on_right{
+    border-right:1px solid gray ;
+}
+.border_at_btm{
+    border-bottom:1px solid gray ;
+    overflow: auto;
+}
+
+.threediv{
+    float: left;
+    width: 32%;
+    height: 60px;
+} 
+.fourdiv{
+    float: left;
+    width: 23%;
+    height: 19%;
+}
+.inside_div_padding{
+    padding: 10px 4px 8px 7px;
+}
+#countrydata{
+    
+    margin: 1%;
+    padding: 1%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 3%;
+   
+}
+
+#submitbutton{
+    margin: auto;
+    width: 30%;
+    
+}
+
+.required:after{
+    content: "*";
+    color: red;
+}
+.text_input_height{
+    width: 98%;
+}
+.err_msg{
+    color: red;
+    height:9%;
+}
+#code{
+    float: left;
+    width: 20%
+}
+
+#number{
+    float: left;
+    width: 80%;
+}
+#submitbtn{
+    margin: auto;
+    width: 100%;
+    color: whitesmoke;
+    background-color: #91bd62;
+    padding: 5px 20px;
+    
+}
+
+#submitbtn:disabled{
+    background-color:grey;
+}
+
+.switch {
+position: relative;
+
+width: 50px;
+height: 20px;
+float: right;
+margin-bottom: 5px;
+}
+
+.switch input { 
+opacity: 0;
+width: 0;
+height: 0;
+}
+
+.slider {
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #ccc;
+-webkit-transition: .4s;
+transition: .4s;
+}
+
+.slider:before {
+position: absolute;
+content: "";
+height: 13px;
+width: 16px;
+left: 4px;
+bottom: 4px;
+background-color: white;
+-webkit-transition: .4s;
+transition: .4s;
+}
+
+input:checked + .slider {
+background-color: green;
+}
+
+input:focus + .slider {
+box-shadow: 0 0 1px green;
+}
+
+input:checked + .slider:before {
+-webkit-transform: translateX(26px);
+-ms-transform: translateX(26px);
+transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+border-radius: 34px;
+}
+
+.slider.round:before {
+border-radius: 50%;
+}
+.div_margin{
+margin-top: 5px;
+margin-bottom: 5px;
+}
+.on_err{
+border-color: red;
+}
+#addresstextbox{
+    height:80%;
+}
+#retrival{
+	background-color: #91bd62;
+	color: whitesmoke;
+}
